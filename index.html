@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <meta charset="utf-8">
+	  <title>Portafolio el Comienzo :v</title>
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" type="text/css" href="css/component.css" />
+	  <!-- <link rel="stylesheet" type="text/css" href="css/responsive.css"> -->
+	  <link rel="stylesheet" type="text/css" href="css/hover.css">
+	  <link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/set1.css" />
+	  <link rel="shortcut icon" href="image/icono.ico">
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top">
+	      <div class="container-fluid">
+	        <img alt="Brand" src="image/logoBlanco-03.png" class="logoNavbar">
+	        <div class="mask navbar-brand navbar-right" id="bs-example-navbar-collapse-1">
+	        	<i class="icon-menu iconoMenu" id="iconoMenu"><a class="aMenu" href="">Menu</a></i>
+	        </div>
+	      </div>  
+    	</nav>
+		</header>
+		<section>
+			<div class="fondo jumbotron">
+				<div class="content">
+			    <div id="large-header" class="large-header">
+			      <canvas id="demo-canvas"></canvas>
+						<img src="image/nombre-02-01.png" alt="" class="nombre main-title1">
+			      <span class="main main2">Front End Developer,</span><br>
+						<span class="main main3">Grafic Designer</span><br>
+						<span class="main main4">and Mom</span><br>
+			    </div>  
+	      </div>
+			</div>
+		</section>
+		<section class="menuDesplegable hidden" id="menuDesplegable">
+			<div class="contenedor">
+				<div class="top">
+					<img src="image/logo-01.png" alt="" class="logo">
+					<i class="icon-cross iconoCruz" id="iconoCruz"></i>
+				</div><br><br><br>
+				<div class="navbar">
+					<a href="#aboutMeMenu">Acerca de mí</a><br>
+					<a href="#proyectos">Proyectos</a><br>
+					<a href="">Mis Habilidades</a><br>
+					<a href="#contactame">Contáctame</a><br>
+				</div>
+				<hr class="lineaAzul">
+			</div>
+		</section>
+		<section class="aboutMeMenu" id="aboutMeMenu">
+				<video class="videoPlay" src="image/lachutedelaneymp4.mp4" autoplay loop id="video-background" muted></video>
+				<div class="info hidden" id="infoAbout">
+					<div class="container">
+							<div class="row">
+								<div class="col-md-4 overlay">
+									<div class="contenedorFoto">
+										<img src="image/primera.jpg" class="foto">
+									</div>
+									<div class="frase">
+										<div class="hvr-pulse-grow iconoInfo">
+											<i class="icon-pen"></i>
+										</div>
+										<h3>Diseñadora Gráfica</h3>
+										<p>Estudié previamente en el Instituto de Diseño y Comunicaciones</p>
+									</div>
+								</div>
+								<div class="col-md-4 overlay">
+									<div class="contenedorFoto">
+										<img src="image/segunda.jpg" class="foto">
+									</div>
+									<div class="frase">
+										<div class="hvr-pulse-grow iconoInfo">
+											<i class="icon-display"></i>
+										</div>
+										<h3>Desarrolladora Web</h3>
+										<p>Estudio actualmente en Laboratoria para ser Front-End Developer</p>
+									</div>
+								</div>
+								<div class="col-md-4 overlay">
+									<div class="contenedorFoto">
+										<img src="image/tercera.jpg" class="foto">
+									</div>
+									<div class="frase">
+										<div class="hvr-pulse-grow iconoInfo">
+											<i class="icon-heart"></i>
+										</div>
+										<h3>Mamá</h3>
+										<p>Tengo un hijo que cree que es un Dinosaurio</p>
+									</div>
+								</div>
+							</div>
+							<p class="colorBlue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta labore, sequi minus. Sapiente fuga, blanditiis totam reprehenderit minima labore praesentium a repudiandae ipsa hic, molestiae at rerum. Illo, quos, exercitationem.</p>
+							<button class="cerrarBoton" id="botonCerrar">
+								<i class="icon-cross iconoCruzAbout"></i>
+								Cerrar
+							</button>
+					</div>
+				</div>
+				<div class="bt">
+					<button class="aboutBotton" id="aboutBotton">Yo ...</button>
+					<div class="informacion" id="informacion">
+						<p>Me llamo Carol Madeleine</p>
+						<p>Y creo que el diseño no tiene límites, donde sea que lo hagamos</p>
+					</div>
+				</div>
+		</section>
+		<section class="proyectos" id="proyectos">
+			<!-- <div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="contenedorProyecto">
+							<img src="image/primera.jpg" class="foto">
+						</div>
+						<div class="frase">
+								<div class="hvr-pulse-grow iconoInfo">
+									<i class="icon-pen"></i>
+								</div>
+									<h3>Diseñadora Gráfica</h3>
+									<p>Estudié previamente en el Instituto de Diseño y Comunicaciones</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="contenedorProyecto">
+							<img src="image/primera.jpg" class="foto">
+						</div>
+						<div class="frase">
+								<div class="hvr-pulse-grow iconoInfo">
+									<i class="icon-pen"></i>
+								</div>
+									<h3>Diseñadora Gráfica</h3>
+									<p>Estudié previamente en el Instituto de Diseño y Comunicaciones</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="contenedorProyecto">
+							<img src="image/primera.jpg" class="foto">
+						</div>
+						<div class="frase">
+								<div class="hvr-pulse-grow iconoInfo">
+									<i class="icon-pen"></i>
+								</div>
+									<h3>Diseñadora Gráfica</h3>
+									<p>Estudié previamente en el Instituto de Diseño y Comunicaciones</p>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<div class="container">
+				<div class="content">
+					<h2 class="tituloProyecto">Proyectos</h2>
+					<div class="grid">
+						<figure class="effect-sadie">
+							<img src="image/fondo4.jpg" alt="img02"/>
+							<figcaption>
+								<h2>Proyecto <span>TWITTER</span></h2>
+								<p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+								<i class="icon-pen"></i>
+								<a href="#">View more</a>
+							</figcaption>			
+						</figure>
+						<figure class="effect-sadie">
+							<img src="image/fondo4.jpg" alt="img14"/>
+							<figcaption>
+								<h2>Proyecto <span>TUMBLR</span></h2>
+								<p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+								<a href="#">View more</a>
+							</figcaption>			
+						</figure>
+						<figure class="effect-sadie">
+							<img src="image/fondo4.jpg" alt="img02"/>
+							<figcaption>
+								<h2>Proyecto <span>WHATSAPP</span></h2>
+								<p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+								<a href="#">View more</a>
+							</figcaption>			
+						</figure>
+						<figure class="effect-sadie">
+							<img src="image/fondo4.jpg" alt="img14"/>
+							<figcaption>
+								<h2>Holy <span>Sadie</span></h2>
+								<p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
+								<a href="#">View more</a>
+							</figcaption>			
+						</figure>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contactame" id="contactame">
+			<h2 class="tituloContactame">Contáctame</h2>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-4 contacto">
+						<p>CarolMadeleine.github.io/Portafolio</p>
+						<i class="icon-google-plus iconoFooter"></i><p>karito_mc_4@gmail.com</p>
+						<i class="icon-google-plus iconoFooter"></i><p>965 975 744</p>
+					</div>
+					<div class="col-lg-4">
+						<p>¡Por fin llegaste acá! ¡Felicidades!</p>
+						<p>Te invito a descargar mi Cv</p>
+						<button class="contactameBoton"> Descargar CV</button><br>
+						<span>Español |</span>
+						<span>Ingles</span><br>
+					</div>
+					<div class="col-lg-4 iconosFooter">
+						<p>Si te interesa mi trabajo, las habilidades que tengo y mi entusiamo, supongo que soy lo que estás buscando.</p><br>
+						<p>Pongámonos en contacto</p><br>
+						<a href="	"><i class="icon-google-plus iconoFooter" id="iconoFooter"></i></a>
+						<a href="	"><i class="icon-instagram iconoFooter" id="iconoFooter"></i></a>
+						<a href="	"><i class="icon-github iconoFooter" id="iconoFooter"></i></a>
+						<a href="	"><i class="icon-behance iconoFooter" id="iconoFooter"></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p class="nombreFooter">Carol Madeleine © 2016</p>
+		</footer>
+		<!--JS-->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/textualizer.js"></script>
+		<script type="text/javascript" src="js/hamburgler.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/demo-2.js"></script>
+	</body>
+</html>
